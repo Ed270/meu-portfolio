@@ -1,0 +1,14 @@
+/* Estilização do vídeo */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destaque */
+}
